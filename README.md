@@ -48,7 +48,7 @@ Clone the repository
 Bash
 
 
-git clone https://github.com/yourusername/string_analyzer_django.git
+git clone https://github.com/Vkluff/string_analyzer_django.git
 cd string_analyzer_django
 
 
@@ -435,44 +435,3 @@ Delete strings
 •
 Manage user accounts
 
-Troubleshooting
-
-Port 8000 already in use
-
-Bash
-
-
-python manage.py runserver 8001
-
-
-Database errors
-
-Bash
-
-
-python manage.py migrate
-
-
-Module not found errors
-
-Bash
-
-
-pip install -r requirements.txt
-
-
-Superuser creation issues
-
-Bash
-
-
-python manage.py createsuperuser
-
-
-Additional Resources
-
-•
-Django Documentation
-
-•
-Django REST Framework
